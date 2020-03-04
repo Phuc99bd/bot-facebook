@@ -15,6 +15,7 @@
     * [Send message text](#send-message-text)
     * [Send message Attachment](#send-message-attachment)
     * [Send message Quickreplies](#send-message-quickreplies)
+    * [Send TemplateButton](#send-templatebutton)
     * [Send Action read,typing on,typing off](#send-action-readtyping-ontyping-off)
     + [Save Attachment](#save-attachment)
     + [Get started](#get-started)
