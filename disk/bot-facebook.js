@@ -16,7 +16,7 @@ function botFacebook(access_token) {
 botFacebook.prototype._verify = function(req, res, verifyToken) {
     init(req, res, verifyToken);
 }
-botFacebook.prototype._getStart = async function(messageData, ) {
+botFacebook.prototype._getStart = async function(messageData) {
     return await getStart(messageData, this.token)
 }
 botFacebook.prototype._persistentMenu = async function(form) {
@@ -43,3 +43,5 @@ botFacebook.prototype._saveAttachment = async function(attachment) {
 botFacebook.prototype._getInfoUser = async function(senderId) {
     return await getInfoUser(senderId, this.token);
 }
+
+module.exports = botFacebook;

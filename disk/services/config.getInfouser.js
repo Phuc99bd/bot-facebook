@@ -22,3 +22,5 @@ function getInfoUser(senderId, tokenPage) {
 function fixEncoding(string) {
     return iconv.decode(iconv.encode(string, "latin1"), "utf8")
 }
+
+module.exports = getInfoUser;
