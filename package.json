@@ -1,0 +1,31 @@
+{
+    "name": "bot-facebook",
+    "version": "1.0.0",
+    "description": "support send message,config menu",
+    "main": "bot-facebook",
+    "scripts": {
+        "test": "npm start",
+        "start": "node disk/bot-facebook.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Phuc99bd/bot-facebook.git"
+    },
+    "keywords": [
+        "bot-facebook",
+        "bot",
+        "message",
+        "persistent-menu",
+        "read",
+        "typing"
+    ],
+    "author": "congphuc",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Phuc99bd/bot-facebook/issues"
+    },
+    "homepage": "https://github.com/Phuc99bd/bot-facebook#readme",
+    "dependencies": {
+        "request": "^2.88.2"
+    }
+}
