@@ -6,6 +6,21 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e49cfaf866174e5fa9053cc2e894927f)](https://www.codacy.com/app/charlesaraya/fb-messenger-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=charlesaraya/fb-messenger-app&amp;utm_campaign=Badge_Grade)
 
+## Table of Contents
+
+- [Installation](#installation)
+- [How to start](#how-to-start)
+- [Receive Messages](#receive-messages)
+- [Event Message](#event-message)
+    * [Send message text](#send-message-text)
+    * [Send message Attachment](#send-message-attachment)
+    * [Send message Quickreplies](#send-message-quickreplies)
+    * [Send Action read,typing on,typing off](#send-action-readtyping-ontyping-off)
+    + [Save Attachment](#save-attachment)
+    + [Get started](#get-started)
+    + [Persistent Menu](#persistent-menu)
+    + [GetInfoUser](#getinfouser)
+    
 ## Installation
 
 Install the `bot-facebook` package in your node server app's local `node_modules` folder.
