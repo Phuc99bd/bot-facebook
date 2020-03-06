@@ -17,7 +17,14 @@ let sendTemplateButton = (senderId, element, tokenPage) => {
                             type: "template",
                             payload: {
                                 template_type: "generic",
-                                elements: element
+                                elements: {
+                                    "type": "template",
+                                    "payload": {
+                                        "template_type": "button",
+                                        "text": `Click button dưới đây để sử dụng chức năng`,
+                                        "buttons": element
+                                    }
+                                }
 
                             }
                         }
