@@ -1,6 +1,6 @@
 var request = require("request");
 
-let sendTemplateButton = (senderId, element, tokenPage) => {
+let sendTemplateButton = (senderId, text, element, tokenPage) => {
     return new Promise((resolve, reject) => {
         request({
                 url: 'https://graph.facebook.com/v2.6/me/messages',
@@ -21,7 +21,7 @@ let sendTemplateButton = (senderId, element, tokenPage) => {
                                     "type": "template",
                                     "payload": {
                                         "template_type": "button",
-                                        "text": `Click button dưới đây để sử dụng chức năng`,
+                                        "text": text,
                                         "buttons": element
                                     }
                                 }

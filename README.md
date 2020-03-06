@@ -171,19 +171,12 @@ The Messenger Platform supports the following attachment types, specified in the
 
 ```js
     var messenger = new botFacebook(MY_PAGE_ACCESS_TOKEN);
-    let arraybtn ={
-         "type": "template",
-            "payload": {
-                "template_type": "button",
-                "text": `Click button dưới đây để sử dụng chức năng`,
-                "buttons": [{
+    let arraybtn =[{
                                 "type": "postback",
                                 "title": "Hello everyOne",
                                 "payload": "<POSTBACK_PAYLOAD>"
-                            }
+                     }
                 ]
-           }
-     }
      messenger._sendTemplateButton(senderId,arraybtn);
 ```
 
