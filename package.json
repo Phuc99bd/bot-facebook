@@ -1,6 +1,6 @@
 {
     "name": "bot-facebook",
-    "version": "2.0.7",
+    "version": "2.0.8",
     "description": "support send message,config menu",
     "main": "bot-facebook",
     "scripts": {

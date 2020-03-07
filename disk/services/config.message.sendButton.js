@@ -14,21 +14,13 @@ let sendTemplateButton = (senderId, text, element, tokenPage) => {
                     },
                     message: {
                         attachment: {
-                            type: "template",
-                            payload: {
-                                template_type: "generic",
-                                elements: {
-                                    "type": "template",
-                                    "payload": {
-                                        "template_type": "button",
-                                        "text": text,
-                                        "buttons": element
-                                    }
-                                }
-
+                            "type": "template",
+                            "payload": {
+                                "template_type": "button",
+                                "text": text,
+                                "buttons": element
                             }
                         }
-
                     },
                 }
             },
