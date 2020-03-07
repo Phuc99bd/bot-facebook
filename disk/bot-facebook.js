@@ -35,7 +35,7 @@ botFacebook.prototype._sendAttachment = async function(senderId, attachment) {
     return await messageAttachment(senderId, attachment, this.token);
 }
 botFacebook.prototype._sendTemplateButton = async function(senderId, arrayBtn) {
-    return await messageButton(senderId, arrayBtn, this.token);
+    return await messageButton(senderId, text, arrayBtn, this.token);
 }
 botFacebook.prototype._saveAttachment = async function(attachment) {
     return await savefile(attachment, this.token);
