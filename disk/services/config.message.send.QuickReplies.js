@@ -21,7 +21,7 @@ let sendQuickReplies = (senderId, text, quick_replies, tokenPage) => {
             if (err) {
                 reject(err)
             }
-            resolve(body)
+            resolve(res)
         })
     })
 }

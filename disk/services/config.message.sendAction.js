@@ -18,7 +18,7 @@ let sendAction = (senderId, action, tokenPage) => {
             if (err) {
                 reject(err)
             }
-            resolve(body);
+            resolve(res);
         })
     })
 }

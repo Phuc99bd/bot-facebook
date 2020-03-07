@@ -21,7 +21,7 @@ function saveAttachment(attachment, tokenPage) {
                 if (err) {
                     reject(err);
                 }
-                resolve(body);
+                resolve(res);
             })
         })
     })

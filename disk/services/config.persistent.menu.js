@@ -19,7 +19,7 @@ function persistentMenu(call_to_actions, tokenPage) {
                 if (err) {
                     reject(err);
                 }
-                resolve(body);
+                resolve(res);
             });
     })
 }

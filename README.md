@@ -177,7 +177,7 @@ The Messenger Platform supports the following attachment types, specified in the
                                 "payload": "<POSTBACK_PAYLOAD>"
                      }
                 ]
-     messenger._sendTemplateButton(senderId,arraybtn);
+     messenger._sendTemplateButton(senderId,text,arraybtn);
 ```
 
 #### Save Attachment 

@@ -20,7 +20,7 @@ let sendMessageText = (senderId, message, tokenPage) => {
             if (error) {
                 reject(error)
             }
-            resolve(body);
+            resolve(response);
         })
     })
 

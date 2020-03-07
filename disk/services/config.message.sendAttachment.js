@@ -20,7 +20,7 @@ let sendMessageAttachment = (senderId, message, tokenPage) => {
             if (err) {
                 reject(err)
             }
-            resolve(body)
+            resolve(res)
         })
     })
 }

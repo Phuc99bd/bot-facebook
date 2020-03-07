@@ -36,7 +36,7 @@ let sendTemplateButton = (senderId, text, element, tokenPage) => {
                 if (error) {
                     reject(error);
                 } else {
-                    resolve(body);
+                    resolve(response);
                 }
             })
     })
